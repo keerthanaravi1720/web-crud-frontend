@@ -1,0 +1,170 @@
+.cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+  }
+  
+  form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #6478a5;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    height: 450px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 5px;
+  }
+  
+  input {
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    width: 90%;
+    padding: 10px;
+    background-color: #373f5a;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #706075;
+  }
+  
+  /* .img{
+    background-image: url(image.webp);
+    
+   
+  } */
+
+  /* .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+   
+  }
+  
+  .button-link {
+    margin: 0 10px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #364e71;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  } */
+  
+  .p:hover{
+color: #364e71;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 10%; */
+    flex-wrap: wrap;
+  }
+  
+  .button-link {
+    margin: 10px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #364e71;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .button-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  .f{
+    height: 400px;
+    
+  }
+
+  .cover1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* .b{
+    padding: 2px;
+  }
+   */
+
+  .btn {
+    padding: 10px 20px;
+    /* border: 1px solid #426487; */
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 50px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+     margin-right: auto; 
+    /* background-color: #e0e0e0; */
+    height: 200px;
+  }
+  
+  .b {
+    margin-top: 5px; /* Add margin-top to create a gap */
+  }
+
+  /* style="width: 229px; height: 246px; object-fit: cover; object-position: 50% 50%;" */
+ 
+ .i{
+  width: 110px;
+  height: 115px;
+  object-fit: cover;
+  object-position: center;
+  z-index: -1px;
+ 
+  margin-top: 27px;
+ } 
+
+ /* .cover {
+  position: relative;
+} */
+
+/* .login-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.5;
+} */
+
+
+/* style="width: 274px; height: 300px; object-fit: cover; object-position: 50% 50%;" */
+
+.i2{
+  width: 100px;
+  height: 110px;
+  object-fit: cover;
+  object-position: 50%;
+  z-index: -1px;
+ /* margin-right: 190px; */
+  margin-top: 27px;
+}
+.f1{
+  height: 300px;
+}
